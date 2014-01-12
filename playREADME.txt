@@ -24,3 +24,9 @@ $ play
 $ run
 
 navigate to http://localhost:9000/
+
+
+Some more tutorial/information
+http://www.playframework.com/documentation/2.2.x/JavaHome
+http://www.playframework.com/documentation/2.2.x/JavaTodoList
+http://www.playframework.com/modules/mongo-1.1/home
