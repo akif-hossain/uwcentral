@@ -1,12 +1,21 @@
-2014-01-14 20:06:18,909 - [INFO] - from play in pool-4-thread-3 
+2014-01-14 21:44:40,830 - [INFO] - from play in pool-4-thread-2 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2014-01-14 20:06:31,357 - [DEBUG] - from application in play-internal-execution-context-1 
+2014-01-14 21:44:50,747 - [DEBUG] - from application in play-internal-execution-context-1 
 ** onStart **
 
-2014-01-14 20:06:31,668 - [DEBUG] - from application in play-internal-execution-context-1 
+2014-01-14 21:44:51,011 - [DEBUG] - from application in play-internal-execution-context-1 
 ** Morphia datastore: test
 
-2014-01-14 20:06:31,674 - [INFO] - from play in play-internal-execution-context-1 
+2014-01-14 21:44:51,017 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-01-14 21:47:53,388 - [DEBUG] - from application in play-internal-execution-context-1 
+** onStart **
+
+2014-01-14 21:47:53,390 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: test
+
+2014-01-14 21:47:53,390 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
