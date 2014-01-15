@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/nirujan/Documents/Design%20Project/uwcentral/}playMongoDemo...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/nirujan/Downloads/playMongoDemo-master/}playMongoDemo...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77225c00[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45287b6f[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.2[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.2 in sbt-chain[0m
@@ -514,7 +514,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.1->org.scala-lang#scala-reflect;2.10.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java_2.10;2.2.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36673fe4[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3befbc61[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-java_2.10;2.2.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-java_2.10;2.2.1[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-java_2.10;2.2.1 in sbt-chain[0m
@@ -640,9 +640,62 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT->com.google.code.morphia#morphia;0.99 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.google.code.morphia#morphia;0.99 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.code.morphia#morphia;0.99 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.code.morphia#morphia;0.99[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.google.code.morphia#morphia;0.99[0m
-[0m[[0mdebug[0m] [0m	found com.google.code.morphia#morphia;0.99 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /Users/nirujan/Desktop/play-2.2.1/repository/local/com.google.code.morphia/morphia/0.99/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.google.code.morphia#morphia;0.99[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/nirujan/.m2/repository/com/google/code/morphia/morphia/0.99/morphia-0.99.pom[0m
+[0m[[0mdebug[0m] [0m	Maven2 Local: no ivy file found for com.google.code.morphia#morphia;0.99[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/code/morphia/morphia/0.99/morphia-0.99.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/google/code/morphia/morphia/0.99/morphia-0.99.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.google.code.morphia#morphia;0.99[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/google/code/morphia/morphia/0.99/morphia-0.99.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/google/code/morphia/morphia/0.99/morphia-0.99.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases Repository: no ivy file found for com.google.code.morphia#morphia;0.99[0m
+[0m[[0mdebug[0m] [0m		tried http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia/0.99/morphia-0.99.pom[0m
+[0m[[0mdebug[0m] [0m	Maven repository: found md file for com.google.code.morphia#morphia;0.99[0m
+[0m[[0mdebug[0m] [0m		=> http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia/0.99/morphia-0.99.pom (0.99)[0m
+[0m[[0mdebug[0m] [0mdownloading http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia/0.99/morphia-0.99.pom ...[0m
+[0m[[0mdebug[0m] [0m	Maven repository: downloading http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia/0.99/morphia-0.99.pom[0m
+[0m[[0mdebug[0m] [0m	Maven repository: downloading http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia/0.99/morphia-0.99.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia/0.99/morphia-0.99.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.code.morphia#morphia;0.99!morphia.pom(pom.original) (228ms)[0m
+[0m[[0minfo[0m] [0mResolving com.google.code.morphia#morphia-parent;1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.code.morphia#morphia-parent;1.0 {}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/nirujan/Desktop/play-2.2.1/repository/local/com.google.code.morphia/morphia-parent/1.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.google.code.morphia#morphia-parent;1.0[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/nirujan/.m2/repository/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.pom[0m
+[0m[[0mdebug[0m] [0m	Maven2 Local: no ivy file found for com.google.code.morphia#morphia-parent;1.0[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.google.code.morphia#morphia-parent;1.0[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases Repository: no ivy file found for com.google.code.morphia#morphia-parent;1.0[0m
+[0m[[0mdebug[0m] [0m		tried http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.pom[0m
+[0m[[0mdebug[0m] [0m	Maven repository: found md file for com.google.code.morphia#morphia-parent;1.0[0m
+[0m[[0mdebug[0m] [0m		=> http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.pom (1.0)[0m
+[0m[[0mdebug[0m] [0mdownloading http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	Maven repository: downloading http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.pom[0m
+[0m[[0mdebug[0m] [0m	Maven repository: downloading http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.code.morphia#morphia-parent;1.0!morphia-parent.pom(pom.original) (215ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/nirujan/Desktop/play-2.2.1/repository/local/com.google.code.morphia/morphia-parent/1.0/jars/morphia-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/nirujan/.m2/repository/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/com/google/code/morphia/morphia-parent/1.0/morphia-parent-1.0.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/nirujan/Desktop/play-2.2.1/repository/local/com.google.code.morphia/morphia/0.99/jars/morphia.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/nirujan/.m2/repository/com/google/code/morphia/morphia/0.99/morphia-0.99.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/code/morphia/morphia/0.99/morphia-0.99.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/google/code/morphia/morphia/0.99/morphia-0.99.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/google/code/morphia/morphia/0.99/morphia-0.99.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/google/code/morphia/morphia/0.99/morphia-0.99.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia/0.99/morphia-0.99.jar[0m
+[0m[[0mdebug[0m] [0m	found com.google.code.morphia#morphia;0.99 in Maven repository[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT->com.google.code.morphia#morphia;0.99 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT->com.google.code.morphia#morphia;0.99 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.google.code.morphia#morphia;0.99->org.mongodb#mongo-java-driver;2.3 [compile->master(*)][0m
@@ -652,9 +705,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;2.7.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.mongodb#mongo-java-driver;2.7.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#mongo-java-driver;2.7.3 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#mongo-java-driver;2.7.3[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.mongodb#mongo-java-driver;2.7.3[0m
-[0m[[0mdebug[0m] [0m	found org.mongodb#mongo-java-driver;2.7.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /Users/nirujan/Desktop/play-2.2.1/repository/local/org.mongodb/mongo-java-driver/2.7.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#mongo-java-driver;2.7.3[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/nirujan/.m2/repository/org/mongodb/mongo-java-driver/2.7.3/mongo-java-driver-2.7.3.pom[0m
+[0m[[0mdebug[0m] [0m	Maven2 Local: no ivy file found for org.mongodb#mongo-java-driver;2.7.3[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.7.3/mongo-java-driver-2.7.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.mongodb#mongo-java-driver;2.7.3[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.7.3/mongo-java-driver-2.7.3.pom (2.7.3)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.7.3/mongo-java-driver-2.7.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.7.3/mongo-java-driver-2.7.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.7.3/mongo-java-driver-2.7.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.7.3/mongo-java-driver-2.7.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#mongo-java-driver;2.7.3!mongo-java-driver.pom(pom.original) (258ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/nirujan/Desktop/play-2.2.1/repository/local/org.mongodb/mongo-java-driver/2.7.3/jars/mongo-java-driver.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/nirujan/.m2/repository/org/mongodb/mongo-java-driver/2.7.3/mongo-java-driver-2.7.3.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.7.3/mongo-java-driver-2.7.3.jar[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#mongo-java-driver;2.7.3 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;2.7.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;2.7.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;2.7.3 [compile->master][0m
@@ -665,9 +731,62 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT->com.google.code.morphia#morphia-logging-slf4j;0.99 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.google.code.morphia#morphia-logging-slf4j;0.99 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.code.morphia#morphia-logging-slf4j;0.99 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.code.morphia#morphia-logging-slf4j;0.99[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.google.code.morphia#morphia-logging-slf4j;0.99[0m
-[0m[[0mdebug[0m] [0m	found com.google.code.morphia#morphia-logging-slf4j;0.99 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /Users/nirujan/Desktop/play-2.2.1/repository/local/com.google.code.morphia/morphia-logging-slf4j/0.99/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.google.code.morphia#morphia-logging-slf4j;0.99[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/nirujan/.m2/repository/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.pom[0m
+[0m[[0mdebug[0m] [0m	Maven2 Local: no ivy file found for com.google.code.morphia#morphia-logging-slf4j;0.99[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.google.code.morphia#morphia-logging-slf4j;0.99[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases Repository: no ivy file found for com.google.code.morphia#morphia-logging-slf4j;0.99[0m
+[0m[[0mdebug[0m] [0m		tried http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.pom[0m
+[0m[[0mdebug[0m] [0m	Maven repository: found md file for com.google.code.morphia#morphia-logging-slf4j;0.99[0m
+[0m[[0mdebug[0m] [0m		=> http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.pom (0.99)[0m
+[0m[[0mdebug[0m] [0mdownloading http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.pom ...[0m
+[0m[[0mdebug[0m] [0m	Maven repository: downloading http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.pom[0m
+[0m[[0mdebug[0m] [0m	Maven repository: downloading http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.code.morphia#morphia-logging-slf4j;0.99!morphia-logging-slf4j.pom(pom.original) (210ms)[0m
+[0m[[0minfo[0m] [0mResolving com.google.code.morphia#morphia-parent;1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.code.morphia#morphia-parent;1.1 {}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/nirujan/Desktop/play-2.2.1/repository/local/com.google.code.morphia/morphia-parent/1.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.google.code.morphia#morphia-parent;1.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/nirujan/.m2/repository/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.pom[0m
+[0m[[0mdebug[0m] [0m	Maven2 Local: no ivy file found for com.google.code.morphia#morphia-parent;1.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.google.code.morphia#morphia-parent;1.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Releases Repository: no ivy file found for com.google.code.morphia#morphia-parent;1.1[0m
+[0m[[0mdebug[0m] [0m		tried http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.pom[0m
+[0m[[0mdebug[0m] [0m	Maven repository: found md file for com.google.code.morphia#morphia-parent;1.1[0m
+[0m[[0mdebug[0m] [0m		=> http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.pom (1.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	Maven repository: downloading http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.pom[0m
+[0m[[0mdebug[0m] [0m	Maven repository: downloading http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.code.morphia#morphia-parent;1.1!morphia-parent.pom(pom.original) (220ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/nirujan/Desktop/play-2.2.1/repository/local/com.google.code.morphia/morphia-parent/1.1/jars/morphia-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/nirujan/.m2/repository/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/com/google/code/morphia/morphia-parent/1.1/morphia-parent-1.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/nirujan/Desktop/play-2.2.1/repository/local/com.google.code.morphia/morphia-logging-slf4j/0.99/jars/morphia-logging-slf4j.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/nirujan/.m2/repository/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.jar[0m
+[0m[[0mdebug[0m] [0m	found com.google.code.morphia#morphia-logging-slf4j;0.99 in Maven repository[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT->com.google.code.morphia#morphia-logging-slf4j;0.99 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT->com.google.code.morphia#morphia-logging-slf4j;0.99 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.google.code.morphia#morphia-logging-slf4j;0.99->com.google.code.morphia#morphia;0.99 [compile->master(*)][0m
@@ -679,9 +798,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.google.code.morphia#morphia-logging-slf4j;0.99->org.mongodb#mongo-java-driver;2.10.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.mongodb#mongo-java-driver;2.10.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#mongo-java-driver;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#mongo-java-driver;2.10.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.mongodb#mongo-java-driver;2.10.1[0m
-[0m[[0mdebug[0m] [0m	found org.mongodb#mongo-java-driver;2.10.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m		tried /Users/nirujan/Desktop/play-2.2.1/repository/local/org.mongodb/mongo-java-driver/2.10.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#mongo-java-driver;2.10.1[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/nirujan/.m2/repository/org/mongodb/mongo-java-driver/2.10.1/mongo-java-driver-2.10.1.pom[0m
+[0m[[0mdebug[0m] [0m	Maven2 Local: no ivy file found for org.mongodb#mongo-java-driver;2.10.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.10.1/mongo-java-driver-2.10.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.mongodb#mongo-java-driver;2.10.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.10.1/mongo-java-driver-2.10.1.pom (2.10.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.10.1/mongo-java-driver-2.10.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.10.1/mongo-java-driver-2.10.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.10.1/mongo-java-driver-2.10.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.10.1/mongo-java-driver-2.10.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#mongo-java-driver;2.10.1!mongo-java-driver.pom(pom.original) (248ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/nirujan/Desktop/play-2.2.1/repository/local/org.mongodb/mongo-java-driver/2.10.1/jars/mongo-java-driver.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/Users/nirujan/.m2/repository/org/mongodb/mongo-java-driver/2.10.1/mongo-java-driver-2.10.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.10.1/mongo-java-driver-2.10.1.jar[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#mongo-java-driver;2.10.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.google.code.morphia#morphia-logging-slf4j;0.99->org.mongodb#mongo-java-driver;2.10.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.google.code.morphia#morphia-logging-slf4j;0.99->org.mongodb#mongo-java-driver;2.10.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.google.code.morphia#morphia-logging-slf4j;0.99->org.mongodb#mongo-java-driver;2.10.1 [compile->runtime][0m
@@ -5117,13 +5249,23 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->optional(default)][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/nirujan/Documents/Design Project/uwcentral/target/resolution-cache/playmongodemo/playmongodemo_2.10/1.0-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/nirujan/Downloads/playMongoDemo-master/target/resolution-cache/playmongodemo/playmongodemo_2.10/1.0-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play_2.10;2.2.1!play_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java_2.10;2.2.1!play-java_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.code.morphia#morphia;0.99!morphia.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.code.morphia#morphia-logging-slf4j;0.99!morphia-logging-slf4j.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia/0.99/morphia-0.99.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia/0.99/morphia-0.99.jar ...[0m
+[0m[[0mdebug[0m] [0m	Maven repository: downloading http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia/0.99/morphia-0.99.jar[0m
+[0m[[0mdebug[0m] [0m	Maven repository: downloading http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia/0.99/morphia-0.99.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia/0.99/morphia-0.99.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.google.code.morphia#morphia;0.99!morphia.jar (1073ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.jar ...[0m
+[0m[[0mdebug[0m] [0m	Maven repository: downloading http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.jar[0m
+[0m[[0mdebug[0m] [0m	Maven repository: downloading http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.google.code.morphia#morphia-logging-slf4j;0.99!morphia-logging-slf4j.jar (229ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-jdbc_2.10;2.2.1!play-java-jdbc_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-ebean_2.10;2.2.1!play-java-ebean_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#sbt-link;2.2.1!sbt-link.jar[0m
@@ -5177,7 +5319,12 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.validation#validation-api;1.1.0.Final!validation-api.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jboss.logging#jboss-logging;3.1.1.GA!jboss-logging.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml#classmate;0.8.0!classmate.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#mongo-java-driver;2.10.1!mongo-java-driver.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.10.1/mongo-java-driver-2.10.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.10.1/mongo-java-driver-2.10.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.10.1/mongo-java-driver-2.10.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.10.1/mongo-java-driver-2.10.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.10.1/mongo-java-driver-2.10.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#mongo-java-driver;2.10.1!mongo-java-driver.jar (1527ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.10;2.2.1!play-jdbc_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.jolbox#bonecp;0.8.0.RELEASE!bonecp.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.h2database#h2;1.3.172!h2.jar[0m
@@ -5245,19 +5392,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.2!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.2!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2361ms :: artifacts dl 77ms[0m
-[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT compile produced in /Users/nirujan/Documents/Design Project/uwcentral/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT runtime produced in /Users/nirujan/Documents/Design Project/uwcentral/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT test produced in /Users/nirujan/Documents/Design Project/uwcentral/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT provided produced in /Users/nirujan/Documents/Design Project/uwcentral/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT optional produced in /Users/nirujan/Documents/Design Project/uwcentral/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT compile-internal produced in /Users/nirujan/Documents/Design Project/uwcentral/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT runtime-internal produced in /Users/nirujan/Documents/Design Project/uwcentral/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT test-internal produced in /Users/nirujan/Documents/Design Project/uwcentral/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT plugin produced in /Users/nirujan/Documents/Design Project/uwcentral/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT sources produced in /Users/nirujan/Documents/Design Project/uwcentral/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT docs produced in /Users/nirujan/Documents/Design Project/uwcentral/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT pom produced in /Users/nirujan/Documents/Design Project/uwcentral/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT scala-tool produced in /Users/nirujan/Documents/Design Project/uwcentral/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2361ms resolve - 77ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 8663ms :: artifacts dl 2932ms[0m
+[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT compile produced in /Users/nirujan/Downloads/playMongoDemo-master/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT runtime produced in /Users/nirujan/Downloads/playMongoDemo-master/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT test produced in /Users/nirujan/Downloads/playMongoDemo-master/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT provided produced in /Users/nirujan/Downloads/playMongoDemo-master/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT optional produced in /Users/nirujan/Downloads/playMongoDemo-master/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT compile-internal produced in /Users/nirujan/Downloads/playMongoDemo-master/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT runtime-internal produced in /Users/nirujan/Downloads/playMongoDemo-master/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT test-internal produced in /Users/nirujan/Downloads/playMongoDemo-master/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT plugin produced in /Users/nirujan/Downloads/playMongoDemo-master/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT sources produced in /Users/nirujan/Downloads/playMongoDemo-master/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT docs produced in /Users/nirujan/Downloads/playMongoDemo-master/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT pom produced in /Users/nirujan/Downloads/playMongoDemo-master/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for playmongodemo#playmongodemo_2.10;1.0-SNAPSHOT scala-tool produced in /Users/nirujan/Downloads/playMongoDemo-master/target/resolution-cache/reports/playmongodemo-playmongodemo_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (8663ms resolve - 2932ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

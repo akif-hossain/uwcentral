@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140114200614"/>
+		date="20140114194431"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-java-ebean_2.10">
 			<revision name="2.2.1" status="release" pubdate="20131030164410" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="62">
@@ -114,32 +114,32 @@
 			</revision>
 		</module>
 		<module organisation="com.google.code.morphia" name="morphia-logging-slf4j">
-			<revision name="0.99" status="release" pubdate="20110126195947" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="55">
-				<metadata-artifact status="no" details="" size="3431" time="0" location="/Users/nirujan/Desktop/play-2.2.1/framework/../repository/cache/com.google.code.morphia/morphia-logging-slf4j/ivy-0.99.xml" searched="false" origin-is-local="false" origin-location="http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.pom"/>
+			<revision name="0.99" status="release" pubdate="20110126195947" resolver="Maven repository" artresolver="Maven repository" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="55">
+				<metadata-artifact status="successful" details="" size="1161" time="210" location="/Users/nirujan/Desktop/play-2.2.1/framework/../repository/cache/com.google.code.morphia/morphia-logging-slf4j/ivy-0.99.xml" searched="true" original-local-location="/Users/nirujan/Desktop/play-2.2.1/framework/../repository/cache/com.google.code.morphia/morphia-logging-slf4j/ivy-0.99.xml.original" origin-is-local="false" origin-location="http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.pom"/>
 				<caller organisation="playmongodemo" name="playmongodemo_2.10" conf="compile" rev="0.99" rev-constraint-default="0.99" rev-constraint-dynamic="0.99" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="morphia-logging-slf4j" type="jar" ext="jar" status="no" details="" size="4249" time="0" location="/Users/nirujan/Desktop/play-2.2.1/framework/../repository/cache/com.google.code.morphia/morphia-logging-slf4j/jars/morphia-logging-slf4j-0.99.jar">
+					<artifact name="morphia-logging-slf4j" type="jar" ext="jar" status="successful" details="" size="4249" time="229" location="/Users/nirujan/Desktop/play-2.2.1/framework/../repository/cache/com.google.code.morphia/morphia-logging-slf4j/jars/morphia-logging-slf4j-0.99.jar">
 						<origin-location is-local="false" location="http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia-logging-slf4j/0.99/morphia-logging-slf4j-0.99.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.mongodb" name="mongo-java-driver">
-			<revision name="2.10.1" status="release" pubdate="20121203144850" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.mongodb.org" downloaded="false" searched="false" default="false" conf="default, compile, master(*), runtime, compile(*), runtime(*), master, default(compile)" position="56">
+			<revision name="2.10.1" status="release" pubdate="20121203144850" resolver="public" artresolver="public" homepage="http://www.mongodb.org" downloaded="true" searched="true" default="false" conf="default, compile, master(*), runtime, compile(*), runtime(*), master, default(compile)" position="56">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="2385" time="0" location="/Users/nirujan/Desktop/play-2.2.1/framework/../repository/cache/org.mongodb/mongo-java-driver/ivy-2.10.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.10.1/mongo-java-driver-2.10.1.pom"/>
+				<metadata-artifact status="successful" details="" size="869" time="248" location="/Users/nirujan/Desktop/play-2.2.1/framework/../repository/cache/org.mongodb/mongo-java-driver/ivy-2.10.1.xml" searched="true" original-local-location="/Users/nirujan/Desktop/play-2.2.1/framework/../repository/cache/org.mongodb/mongo-java-driver/ivy-2.10.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.10.1/mongo-java-driver-2.10.1.pom"/>
 				<caller organisation="com.google.code.morphia" name="morphia-logging-slf4j" conf="default, compile, runtime, master" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="0.99"/>
 				<caller organisation="playmongodemo" name="playmongodemo_2.10" conf="compile" rev="2.7.3" rev-constraint-default="2.7.3" rev-constraint-dynamic="2.7.3" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="com.google.code.morphia" name="morphia" conf="default, compile, runtime, master" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="0.99"/>
 				<artifacts>
-					<artifact name="mongo-java-driver" type="jar" ext="jar" status="no" details="" size="398520" time="0" location="/Users/nirujan/Desktop/play-2.2.1/framework/../repository/cache/org.mongodb/mongo-java-driver/jars/mongo-java-driver-2.10.1.jar">
+					<artifact name="mongo-java-driver" type="jar" ext="jar" status="successful" details="" size="398520" time="1527" location="/Users/nirujan/Desktop/play-2.2.1/framework/../repository/cache/org.mongodb/mongo-java-driver/jars/mongo-java-driver-2.10.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.10.1/mongo-java-driver-2.10.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="2.7.3" status="release" pubdate="20120130141431" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.mongodb.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master, master(*), compile(*), runtime(*)" position="-1">
+			<revision name="2.7.3" status="release" pubdate="20120130141431" resolver="public" artresolver="public" evicted="latest-revision" evicted-reason="" homepage="http://www.mongodb.org" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master, master(*), compile(*), runtime(*)" position="-1">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="2384" time="0" location="/Users/nirujan/Desktop/play-2.2.1/framework/../repository/cache/org.mongodb/mongo-java-driver/ivy-2.7.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.7.3/mongo-java-driver-2.7.3.pom"/>
+				<metadata-artifact status="successful" details="" size="850" time="258" location="/Users/nirujan/Desktop/play-2.2.1/framework/../repository/cache/org.mongodb/mongo-java-driver/ivy-2.7.3.xml" searched="true" original-local-location="/Users/nirujan/Desktop/play-2.2.1/framework/../repository/cache/org.mongodb/mongo-java-driver/ivy-2.7.3.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.7.3/mongo-java-driver-2.7.3.pom"/>
 				<evicted-by rev="2.10.1"/>
 				<caller organisation="playmongodemo" name="playmongodemo_2.10" conf="compile" rev="2.7.3" rev-constraint-default="2.7.3" rev-constraint-dynamic="2.7.3" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="com.google.code.morphia" name="morphia" conf="default, compile, runtime, master" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="0.99"/>
@@ -154,12 +154,12 @@
 			</revision>
 		</module>
 		<module organisation="com.google.code.morphia" name="morphia">
-			<revision name="0.99" status="release" pubdate="20110126195705" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="54">
-				<metadata-artifact status="no" details="" size="3322" time="0" location="/Users/nirujan/Desktop/play-2.2.1/framework/../repository/cache/com.google.code.morphia/morphia/ivy-0.99.xml" searched="false" origin-is-local="false" origin-location="http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia/0.99/morphia-0.99.pom"/>
+			<revision name="0.99" status="release" pubdate="20110126195705" resolver="Maven repository" artresolver="Maven repository" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="54">
+				<metadata-artifact status="successful" details="" size="979" time="228" location="/Users/nirujan/Desktop/play-2.2.1/framework/../repository/cache/com.google.code.morphia/morphia/ivy-0.99.xml" searched="true" original-local-location="/Users/nirujan/Desktop/play-2.2.1/framework/../repository/cache/com.google.code.morphia/morphia/ivy-0.99.xml.original" origin-is-local="false" origin-location="http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia/0.99/morphia-0.99.pom"/>
 				<caller organisation="com.google.code.morphia" name="morphia-logging-slf4j" conf="default, compile, runtime, master" rev="0.99" rev-constraint-default="0.99" rev-constraint-dynamic="0.99" callerrev="0.99"/>
 				<caller organisation="playmongodemo" name="playmongodemo_2.10" conf="compile" rev="0.99" rev-constraint-default="0.99" rev-constraint-dynamic="0.99" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="morphia" type="jar" ext="jar" status="no" details="" size="252115" time="0" location="/Users/nirujan/Desktop/play-2.2.1/framework/../repository/cache/com.google.code.morphia/morphia/jars/morphia-0.99.jar">
+					<artifact name="morphia" type="jar" ext="jar" status="successful" details="" size="252115" time="1073" location="/Users/nirujan/Desktop/play-2.2.1/framework/../repository/cache/com.google.code.morphia/morphia/jars/morphia-0.99.jar">
 						<origin-location is-local="false" location="http://morphia.googlecode.com/svn/mavenrepo/com/google/code/morphia/morphia/0.99/morphia-0.99.jar"/>
 					</artifact>
 				</artifacts>
