@@ -1,3 +1,7 @@
+Before doing this, make sure you installed mongodb.
+$ mongo
+The above should work and go to the mongodb terminal
+
 How to run play and play around with the sample project
 http://www.playframework.com/download
 
