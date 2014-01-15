@@ -2,3 +2,8 @@
 logs/
 .bundle/
 /.target
+project/target/
+target/native_libraries/
+target/resolution-cache/
+target/scala-2.10/
+target/streams/
