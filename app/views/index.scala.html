@@ -3,29 +3,117 @@
 @import helper._
 
 @main("Groups") {
-  
-  <h1>@groups.size() task(s)</h1>
-  
-  <ul>
-    @for(group <- groups) {
-      <li>@group.groupName / @group.date
-      @form(routes.Application.deleteGroup(group.id.toString())) { 
-         <input type="submit" value="Delete"> 
-      }
-      </li>
-    }
-  </ul>
-  
-  <h2>Add a new task</h2>
-  
-  <p>
-        <a class="btn" href="">View sample</a>
-    </p>
-  
-  @form(routes.Application.newGroup()) {
-     @inputText(groupForm("groupName")) @inputDate(groupForm("date"))
-     <input type="submit" value="Create">
-  
-  } 
 
-}
+<html>
+  <body>
+    
+  	<!-- Top navigation bar -->
+  	<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="">
+                <a href="">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="hero-unit container">
+        <div class="span4">
+          	<img class="img-circle text_center img_center" style="width: 150px; height: 150px;" src="@routes.Assets.at("images/grad_hat.png")">
+          	<h2 class="text_center">Welcome to UWCentral.com</h2>
+        </div>
+        <div class="span5 offset2">
+
+			<div class="panel panel-default">
+			  	<div class="panel-heading">
+			    	<h3 class="panel-title">Sign In or Join Us Today!</h3>
+			 	</div>
+			 	<div class="panel-body">
+			    	<form accept-charset="UTF-8" role="form">
+                    <fieldset>
+			    	  	<div class="form-group">
+			    		    <input class="form-control input-xlarge" placeholder="E-mail" name="email" type="text">
+			    		</div>
+			    		<div class="form-group">
+			    			<input class="form-control input-xlarge" placeholder="Password" name="password" type="password" value="">
+			    		</div>
+			    		<input class="btn btn-large btn-primary btn-block " type="submit" value="Login">
+			    	</fieldset>
+			    	<div>
+			    		<a href=""><span class="text-left">Sign up!</span></a>
+			    		<a href=""><span class="text-right" style="float:right;">Forgot Password?</span></a>
+			    	</div>
+			      	</form>
+			    </div>
+			</div>
+
+
+		</div>
+   </div>
+    
+   <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img src="@routes.Assets.at("images/t.jpg")" class="featurette-image pull-right">
+        <h1 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h1>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus 
+        magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.  Fusce dapibus, tellus ac cursus commodo. Fusce dapibus, tellus ac cursus commodo. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+
+      <hr class="featurette-divider">
+      <br/>
+      
+      <div class="featurette">
+        <img src="@routes.Assets.at("images/t.jpg")" class="featurette-image pull-left">
+        <h1 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h1>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus 
+        magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.  Fusce dapibus, tellus ac cursus commodo. Fusce dapibus, tellus ac cursus commodo. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+
+      <hr class="featurette-divider">
+	  <br/>
+      <div class="featurette">
+        <img src="@routes.Assets.at("images/t.jpg")" class="featurette-image pull-right">
+        <h1 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h1>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus 
+        magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.  Fusce dapibus, tellus ac cursus commodo. Fusce dapibus, tellus ac cursus commodo. Fusce dapibus, tellus ac cursus commodo.</p>
+       </div>
+		
+      <hr class="featurette-divider">
+	  <br/>
+	</div>
+	
+	<!-- Footer file (only file that doesn't have include) -->
+	<footer class="footer">
+      <div class="container">
+        <p>Designed and built with all the love in the world by <a target="_blank" href="http://twitter.com/mdo">mdo</a> and <a target="_blank" href="http://twitter.com/fat">fat</a>.</p>
+        <p>Code licensed under <a target="_blank" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License v2.0</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+        <p><a href="http://glyphicons.com">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+        <ul class="footer-links">
+          <li><a href="">Blog</a></li>
+          <li class="muted">-</li>
+          <li><a href="">Issues</a></li>
+          <li class="muted">-</li>
+          <li><a href="">Changelog</a></li>
+        </ul>
+      </div>
+	</footer>
+	
+
+	}
+	</body>
+</html>
