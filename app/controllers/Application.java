@@ -3,8 +3,8 @@ package controllers;
 import play.*;
 import play.mvc.*;
 import play.data.*;
+import views.html.*;
 import static play.data.Form.*;
-
 import models.Group;
 
 public class Application extends Controller {
@@ -12,9 +12,9 @@ public class Application extends Controller {
 
 	public static Result index() throws Exception {
 		// redirect to the "group Result
-		return redirect(routes.Application.group());
+		return ok(footer.render());
 	}
-
+/*
 	public static Result group() {
 		return ok(views.html.index.render(Group.all(), groupForm));
 	}
@@ -33,5 +33,5 @@ public class Application extends Controller {
 		Group.delete(id);
 		return redirect(routes.Application.group());
 	}
-
+*/
 }
