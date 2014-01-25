@@ -12,26 +12,7 @@ public class Application extends Controller {
 
 	public static Result index() throws Exception {
 		// redirect to the "group Result
-		return ok(footer.render());
-	}
-/*
-	public static Result group() {
-		return ok(views.html.index.render(Group.all(), groupForm));
+		return ok(index.render());
 	}
 
-	public static Result newGroup() {
-		Form<Group> filledForm = groupForm.bindFromRequest();
-		if(filledForm.hasErrors()) {
-			return badRequest(views.html.index.render(Group.all(), filledForm));
-		} else {
-			Group.create(filledForm.get());
-			return redirect(routes.Application.group());  
-		}
-	}
-	
-	public static Result deleteGroup(String id) {
-		Group.delete(id);
-		return redirect(routes.Application.group());
-	}
-*/
 }
