@@ -11,8 +11,20 @@ import views.html.home.*;
 
 public class LogInSignUp extends Controller {
 	
+	public static Result AboutUs(){
+		return ok(about.render());
+	}
+	
+	public static Result GettingStarted(){
+		return ok(gettingStarted.render());
+	}
+	
 	public static Result SignUp() {
 		return ok(signup.render());
     }
+	
+	public static Result submit(){
+		return ok(index.render());
+	}
 
 }

@@ -5,7 +5,11 @@
 # Home page
 GET     /                           controllers.Application.index()
 
+#Signup page
+GET    /about                     	controllers.LogInSignUp.AboutUs()
+GET    /getstart                    controllers.LogInSignUp.GettingStarted()
 GET     /signup                     controllers.LogInSignUp.SignUp()
+POST    /signup                     controllers.LogInSignUp.submit()
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
